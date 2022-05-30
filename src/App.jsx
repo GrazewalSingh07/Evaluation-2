@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
+       
         <Route path="/dashboard" element={<PrivateRoute><Dashboard/></PrivateRoute>}/>
         <Route path="/register/one" element={<PageOne/>}/>
         <Route path="/register/two" element={<PrivateRoute><PageTwo/></PrivateRoute>}/>
